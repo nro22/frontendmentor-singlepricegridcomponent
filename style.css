@@ -1,0 +1,110 @@
+html{
+  box-sizing: border-box;
+  font-family:'Karla';
+  font-size: 16px;
+}
+*,*:before,*:after{
+  box-sizing: inherit;
+}
+
+#top-section h2,h4,p{
+  margin:0;
+}
+body{
+  padding: 20px;
+}
+#card{
+  width:600px;
+  height: 400px;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,.35);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#top-section{
+  height:45%;
+  padding: 25px;
+  color: #98a6bd;
+}
+
+#top-section h2{
+  color: #2ab2af;
+  margin-bottom: 15px;
+}
+
+#top-section h4{
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+
+#bottom-section{
+  height: 55%;
+  color: White;
+}
+#bottom-left-section{
+  background-color: #2AB2AF;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  padding: 25px;
+}
+
+#bottom-left-section p {
+  font-size: .8rem;
+}
+
+#bottom-left-section h4{
+  margin-bottom: 20px;
+}
+
+#price-container{
+  margin-bottom: 20px;
+}
+
+#price{
+  font-weight: 700;
+  font-size: 1.4rem;
+  display: inline-block;
+}
+
+#price-frequency{
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  opacity: .7;
+  margin-left: 5px;
+  font-size: .8rem;
+}
+
+button{
+  color: white;
+  background-color: #c0df34;
+  border: none;
+  padding: 10px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+button:hover{
+  cursor:pointer;
+  background-color: #77DE33;
+  scale: 1.02;
+}
+
+#bottom-right-section{
+  background-color: #32D0CD;
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+  padding: 25px;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+  font-size: .8rem;
+  opacity: .8;
+}
