@@ -14,8 +14,8 @@ body{
   padding: 20px;
 }
 #card{
-  width:600px;
-  height: 400px;
+/*   width:600px;
+  height: 400px; */
   box-shadow: 2px 3px 7px 0px rgba(0,0,0,.35);
   border-radius: 5px;
   overflow: hidden;
@@ -43,7 +43,7 @@ body{
 }
 #bottom-left-section{
   background-color: #2AB2AF;
-  width: 50%;
+  width: 100%;
   display: inline-block;
   vertical-align: top;
   height: 100%;
@@ -96,7 +96,7 @@ button:hover{
 
 #bottom-right-section{
   background-color: #32D0CD;
-  width: 50%;
+  width: 100%;
   display: inline-block;
   height: 100%;
   padding: 25px;
@@ -108,3 +108,20 @@ ul{
   font-size: .8rem;
   opacity: .8;
 }
+
+@media (min-width: 576px){
+  #card{
+    width: 550px;
+  height: 400px;
+  }
+  #bottom-left-section , #bottom-right-section{
+    width: 50%;
+  }
+}
+
+/* @media (max-width: 650px){
+  #bottom-left-section , #bottom-right-section, #card{
+    width: 100%;
+    height: auto;
+  }
+} */
