@@ -38,16 +38,17 @@ body{
 }
 
 #bottom-section{
+  display: flex;
+  width: 100%;
   height: 55%;
+  flex-direction: column;
   color: White;
 }
 #bottom-left-section{
   background-color: #2AB2AF;
-  width: 100%;
-  display: inline-block;
-  vertical-align: top;
   height: 100%;
   padding: 25px;
+  flex-basis: 50%;
 }
 
 #bottom-left-section p {
@@ -96,10 +97,9 @@ button:hover{
 
 #bottom-right-section{
   background-color: #32D0CD;
-  width: 100%;
-  display: inline-block;
   height: 100%;
   padding: 25px;
+  flex-basis: 50%;
 }
 
 ul{
@@ -114,9 +114,12 @@ ul{
     width: 550px;
   height: 400px;
   }
-  #bottom-left-section , #bottom-right-section{
-    width: 50%;
+  
+  #bottom-section{
+    flex-direction:row;
   }
+  
+
 }
 
 /* @media (max-width: 650px){
